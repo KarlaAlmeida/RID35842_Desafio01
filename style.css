@@ -1,4 +1,65 @@
 *{
-    background-color: rgb(30, 30, 30);
-    
+    margin: 0px;
+    font-family: "Inter", sans-serif;
 }
+
+#menu-superior{ 
+    margin-top: 0px;
+    background-color: rgb(30, 30, 30);
+    height: 475px;
+}
+
+#menu-informacional{
+    background-color: #F9F9F9;
+    height: 229px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#menu-explicativo{
+    background-color: rgb(195, 37, 37);
+    height: 738px;
+}
+
+#menu-formulario{
+    background-color: rgb(30, 30, 30);
+    height: 638px;
+}
+
+
+#texto-heading{
+    margin-left: 62px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    padding-top: 201.5px;
+}
+
+#texto-description{
+    margin-left: 62px;
+    margin-top: 24.5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.numero-informacional{
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    margin-top: 96px;
+    margin-left: 171px;
+}
+
+.texto-informacional{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
