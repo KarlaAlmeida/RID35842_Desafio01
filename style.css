@@ -29,7 +29,7 @@
 #menu-formulario{
     background-color: rgb(30, 30, 30);
     height: 638px;
-    color: white;
+    text-align: center;
 }
 
 #texto-heading{
@@ -91,3 +91,41 @@
     padding-top: 10px;
 }
 
+#titulo-formulario{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 87px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    margin-top: 48px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    margin-top: 88px;
+    font-size: 30px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f68f11;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 15px 20px #4b2f0cc2;
+    
+}
