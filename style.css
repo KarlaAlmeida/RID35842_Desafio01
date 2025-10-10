@@ -129,3 +129,78 @@ button:hover{
     box-shadow: 0px 15px 20px #4b2f0cc2;
     
 }
+
+@media only screen and (max-width: 768px){
+    #menu-superior{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #texto-heading{
+        font-size: 40px;
+        line-height: 52px;
+        padding-top: 101.5px;
+        margin-left: 20px;
+    }
+
+    #texto-description{
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 20px;
+    }
+
+    #menu-informacional{
+        height: auto;
+        grid-auto-flow: row;
+        padding-bottom: 50px;
+    }
+
+    .numero-informacional{
+        font-size: 30px;
+        margin: 50px 0px 0px 50px;
+    }
+
+    #menu-explicativo{
+        height: auto;
+        grid-auto-flow: row;
+        text-align: center;
+    }
+
+    #titulo-explicativo{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 50px 20px 20px 20px;
+    }
+
+    #texto-explicativo{
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0px 20px 50px 20px;
+    }
+
+    #imagem-projeto{
+        width: 90%;
+        height: auto;
+        margin: 0px 0px 50px 5%;
+    }
+
+    #menu-formulario{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #titulo-formulario{
+        font-size: 28px;
+        padding-top: 50px;
+    }
+
+    input{
+        width: 80%;
+    }
+
+
+    button{
+        width: 60%;
+        font-size: 24px;
+    }
+}
